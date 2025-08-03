@@ -50,7 +50,7 @@ export default function Home() {
 
     return (
         <div className={`${theme} w-full max-w-7xl mx-auto px-2 sm:px-4 md:px-6 py-4 sm:py-6 md:py-8`}>
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mt-3 sm:mt-4 md:mt-5 mb-2 sm:mb-3 md:mb-4 page_caption">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mt-3 sm:mt-4 md:mt-5 mb-2 sm:mb-3 md:mb-4 page_caption pt-6">
                 Our Products
             </h2>
             <p className="text-xs sm:text-sm md:text-base text-gray-500 mb-4 sm:mb-5 md:mb-6 page_caption">

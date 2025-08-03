@@ -17,7 +17,7 @@ export default function App() {
       <BrowserRouter>
         <Header />
         <main
-          className={`w-[90%] mx-auto p-4 ${theme === 'theme2' ? 'pt-16 sm:pt-0' : 'pt-16'
+          className={`w-[90%] mx-auto p-4 pt-20'
             }`}
         >
           <Routes>
