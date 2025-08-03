@@ -1,5 +1,6 @@
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
+import logo from '../assets/logo.jpg'
 
 const contactSchema = Yup.object().shape({
     name: Yup.string()
@@ -37,7 +38,7 @@ export default function ContactForm({ setIsModalOpen }: ContactFormProps) {
         <div className='flex flex-col md:flex-row items-center justify-center max-w-6xl w-full mx-auto p-4 md:p-8 gap-6 md:gap-8 about_page fade-in-out'>
             <div className='w-full md:w-1/2 lg:w-2/5 flex-shrink-0 relative hidden md:block'>
                 <img
-                    src="/src/assets/logo.jpg"
+                    src={logo}
                     alt="Multi-Theme Switcher Logo"
                     className='w-full h-64 md:h-80 lg:h-96 object-cover rounded-lg shadow-lg'
                 />

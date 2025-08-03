@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import ThemeDropdown from "./ThemeDropdown";
+import logo from '../assets/logo.jpg'
 
 interface SideBarProps {
     isSidebarOpen: boolean;
@@ -16,7 +17,7 @@ export default function SideBar({ isSidebarOpen, selectedPage, handlePageChange,
                 <div className="flex items-center justify-between p-4 border-b border-gray-700">
                     {isSidebarOpen && (
                         <div className="flex items-center space-x-2">
-                            <img src="/src/assets/logo.jpg" alt="logo" className="w-8 h-8 rounded-full" />
+                            <img src={logo} alt="logo" className="w-8 h-8 rounded-full" />
                             <h1 className="font-bold text-sm">Multi-Theme Switcher</h1>
                         </div>
                     )}
