@@ -14,9 +14,9 @@ export default function HamburgerIcon({ isMenuOpen, setIsMenuOpen }: HamburgerIc
                 aria-label="Toggle menu"
             >
                 <div className="w-5 h-4 sm:w-6 sm:h-5 flex flex-col justify-between">
-                    <span className={`block h-0.5 sm:h-1 bg-white transition-transform ${isMenuOpen ? 'rotate-45 translate-y-1.5 sm:translate-y-2' : ''}`}></span>
-                    <span className={`block h-0.5 sm:h-1 bg-white transition-opacity ${isMenuOpen ? 'opacity-0' : ''}`}></span>
-                    <span className={`block h-0.5 sm:h-1 bg-white transition-transform ${isMenuOpen ? '-rotate-45 -translate-y-1.5 sm:-translate-y-2' : ''}`}></span>
+                    <span className={`hamburger block h-0.5 sm:h-1 transition-transform ${isMenuOpen ? 'rotate-45 translate-y-1.5 sm:translate-y-2' : ''}`}></span>
+                    <span className={`hamburger block h-0.5 sm:h-1 transition-opacity ${isMenuOpen ? 'opacity-0' : ''}`}></span>
+                    <span className={`hamburger block h-0.5 sm:h-1  transition-transform ${isMenuOpen ? '-rotate-45 -translate-y-1.5 sm:-translate-y-2' : ''}`}></span>
                 </div>
             </button>
         </div>

@@ -16,7 +16,10 @@ export default function App() {
     <div className={`${theme} min-h-screen`}>
       <BrowserRouter>
         <Header />
-        <main className={`w-[90%] mx-auto p-4 ${theme === 'theme2' ? 'pt-0' : 'pt-16'}`}>
+        <main
+          className={`w-[90%] mx-auto p-4 ${theme === 'theme2' ? 'pt-16 sm:pt-0' : 'pt-16'
+            }`}
+        >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

@@ -95,4 +95,16 @@
   .contact_image_text {
     color: var(--text-color);
   }
+
+  .hamburger {
+    background-color: var(--text-color);
+  }
+
+  .hamburger_menu {
+    background-color: var(--header-bg);
+  }
+
+  .hamburger_menu .selected {
+    background: #292828;
+  }
 }

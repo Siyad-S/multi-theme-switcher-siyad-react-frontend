@@ -84,4 +84,16 @@
   .contact_image_text {
     color: var(--text-color);
   }
+
+  .hamburger {
+    background-color: var(--text-color);
+  }
+
+  .hamburger_menu {
+    background: #e7e4e4;
+  }
+
+  .hamburger_menu .selected {
+    background: #b6b4b4;
+  }
 }
