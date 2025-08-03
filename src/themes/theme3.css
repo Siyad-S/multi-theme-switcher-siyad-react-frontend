@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+.theme3 {
+  --bg-color: #fef3c7;
+  --text-color: #333;
+  --header-bg: #fed7aa;
+  --header-text: #1f2937;
+  --header-border: #fdba74;
+  --header-hover: #f97316;
+  font-family: "Pacifico", cursive;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  header {
+    background-color: var(--header-text);
+    color: var(--header-bg);
+    border-bottom: 1px solid var(--header-border);
+    z-index: 1000;
+  }
+
+  .dropdown {
+    color: var(--header-bg);
+    background-color: var(--header-text);
+    font-size: 13px;
+    border: 1px solid var(--header-bg);
+  }
+
+  .dropdown_option {
+    color: var(--header-bg);
+    background-color: var(--header-text);
+  }
+
+  .card {
+    background: #f8e490;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.1),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.06);
+  }
+  .card:hover {
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.15),
+      0px 6px 10px 0px rgba(0, 0, 0, 0.12), 0px 1px 18px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .page_caption {
+    color: grey 500;
+  }
+
+  .about_page {
+    background: #f8e490;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.15),
+      0px 6px 10px 0px rgba(0, 0, 0, 0.12), 0px 1px 18px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact_form {
+    background: #f8e490;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.15),
+      0px 6px 10px 0px rgba(0, 0, 0, 0.12), 0px 1px 18px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .success_modal_wrap {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .success_modal {
+    background: #f8e490;
+  }
+
+  .details_drawer_wrap {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .details_drawer {
+    background: #f8e490;
+  }
+
+  .contact_us_btn {
+    background: #fb2c36;
+  }
+
+  .contact_us_btn:hover {
+    background: #dc2626;
+  }
+
+  .contact_image_text {
+    color: var(--text-color);
+  }
+}
