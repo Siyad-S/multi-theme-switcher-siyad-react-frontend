@@ -63,10 +63,6 @@ export default function Header() {
                 <img src={logo} alt="logo" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full" />
                 <h1 className="font-bold text-sm sm:text-base md:text-lg hidden sm:block">Multi-Theme Switcher</h1>
             </div>
-            <div className="flex items-center space-x-2 sm:space-x-3">
-                <img src={logo} alt="logo" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full" />
-                <h1 className="font-bold text-sm sm:text-base md:text-lg hidden sm:block">Multi-Theme Switcher</h1>
-            </div>
             <DesktopNavBar selectedPage={selectedPage} handlePageChange={handlePageChange} />
             <HamburgerIcon isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
             {isMenuOpen && (
