@@ -83,7 +83,7 @@ Node.js and npm installed on your machine.
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/siyads/theme-switcher.git
+   git clone https://github.com/Siyad-S/multi-theme-switcher-siyad-react-frontend.git
 2. Navigate to the project directory:
    cd theme-switcher
 3. Install dependencies:
